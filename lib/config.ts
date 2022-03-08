@@ -6,8 +6,8 @@ export const DEFAULT_OPTIONS: ToastOptions = {
   type: 'default',
   timeout: 5000,
   showCloseButton: true,
-  position: 'top-right',
+  position: 'bottom-right',
   transition: 'bounce',
-  hideProgressBar: false,
-  swipeClose: true
+  hideProgressBar: true,
+  swipeClose: false
 }
